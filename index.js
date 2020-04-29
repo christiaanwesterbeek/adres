@@ -1,4 +1,4 @@
-const re = /^(\d*[\wäöüß\d '\/\\\-\.]+)[,\s]+(\d+)\s*([\wäöüß\d\-\/]*)$/i;
+const re = /^(\d*[\p{L}\d '\/\\\-\.]+)[,\s]+(\d+)\s*([\p{L} \d\-\/"\(\)]*)$/iu;
 
 const splits = adres => {
     const [, straat, hnr, ext] = adres.match(re) || [];
