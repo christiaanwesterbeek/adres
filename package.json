@@ -1,0 +1,24 @@
+{
+    "name": "adres",
+    "description": "Splitsen van een nederlands adres naar straat, huisnummer en toevoeging middels een regular expression",
+    "version": "0.0.1",
+    "main": "index.js",
+    "repository": "https://github.com/christiaanwesterbeek/adres",
+    "author": "Christiaan Westerbeek <chris@devotis.nl>",
+    "license": "MIT",
+    "scripts": {
+        "test": "node ./test"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "babel-eslint": "10.0.3",
+        "dotenv": "8.2.0",
+        "eslint": "6.8.0",
+        "eslint-config-prettier": "^6.10.0",
+        "eslint-plugin-import": "^2.20.1",
+        "eslint-plugin-prettier": "^3.1.2",
+        "eslint-plugin-react": "^7.18.3",
+        "prettier": "^1.19.1",
+        "tape": "4.13.2"
+    }
+}
