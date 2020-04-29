@@ -12,6 +12,7 @@
     "dependencies": {},
     "devDependencies": {
         "babel-eslint": "10.0.3",
+        "console-table-printer": "1.4.6",
         "dotenv": "8.2.0",
         "eslint": "6.8.0",
         "eslint-config-prettier": "^6.10.0",
